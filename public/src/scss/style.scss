@@ -1,0 +1,453 @@
+$white: #FFF;
+$gray: #e6e6e6;
+$profile-padding: 10px;
+
+.true {
+  background-color: rgba(0, 128, 0, 0.6);
+  color: $white;
+}
+
+.false {
+  background-color: rgba(255, 0, 0, 0.6);
+  color: $white;
+}
+
+main {
+  margin-bottom: 80px;
+}
+
+.signup-panel {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 45px;
+  margin-top: 140px;
+  background-color: white;
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+  i{
+    font-size: 30px;
+    line-height: 50px;
+    color: #999;
+  } 
+
+  form {
+    input, span {
+      height: 50px;
+    }
+  }
+
+  .signup-panel:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 25%;
+  }
+}
+
+.signup-panel:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+.dashimg img{
+  margin-top:15px;
+	border-radius: 150px;
+	height: 150px;
+	width: 150px;
+}
+
+.dashdeet {
+  position:relative;
+  text-align:center;
+  float:left !important;
+  background-color: $gray;
+  padding:0 !important;
+  border-style: solid;
+  border-width: 5px;
+  border-color: $white;
+  .dashimg img{
+    border: 5px solid #87CEFA;
+  }
+  .fullName {
+    font-weight: 600;
+    padding: 0px 10px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .available {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:7px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.course {
+  text-transform: lowercase;
+}
+
+.dashelements {
+	text-align: center;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.logo {
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  height: 40%;
+}
+
+.buttonHolder {
+  text-align: center;
+}
+
+body{
+  background-color: $white;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width:50%;
+}
+
+.edit.btn {
+  display: inline-block;
+  padding: .938em 1.875em;
+  background-color: $gray;
+  border-top: 2px solid #BDBDBD;
+  border-right: 2px solid #BDBDBD;
+}
+
+.delete.btn {
+  display: inline-block;
+  padding: .938em 1.875em;
+  border-top: 2px solid #BDBDBD;
+  i {
+    color: red;
+  }
+}
+
+.flogo {
+  width: 200px;
+  height:100px;
+}
+
+
+
+/******************************************/
+/************ Profile SCSS ****************/
+/******************************************/
+.thumbnail{
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  margin-left: 10%;
+}
+
+.container_dash {
+  margin: 0 20px;
+}
+.media-object .stack-for-small{
+  display: inline-block;
+}
+
+.media-object-section h5{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.media-object-section h5{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 80px;
+}
+
+#pfield {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+#pfname{
+  font-weight: normal;
+}
+
+#pfield input {
+  font-weight: normal;
+}
+
+.pfieldDetails{
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.pfieldDetails input{
+  font-weight: normal;
+}
+
+.profile-details{
+  background-color: yellow;
+}
+
+.experience{
+  padding: $profile-padding;
+  margin: 10px 0px 10px 0px;
+}
+
+.experience:hover {
+  background-color: #e6e6e6;
+  box-shadow:inset 0 0 0 2px #87CEFA;
+}
+
+.skills{
+  padding: $profile-padding;
+  margin: 10px 0px 10px 0px;
+}
+
+.skills:hover {
+  background-color: #e6e6e6;
+  box-shadow:inset 0 0 0 2px #87CEFA;
+}
+
+.projects{
+  padding: $profile-padding;
+  margin: 10px 0px 10px 0px;
+}
+
+.projects:hover {
+  background-color: #e6e6e6;
+  box-shadow:inset 0 0 0 2px #87CEFA;
+}
+
+.interests{
+  padding: $profile-padding;
+  margin: 10px 0px 10px 0px;
+}
+
+.interests:hover {
+  background-color: #e6e6e6;
+  box-shadow:inset 0 0 0 2px #87CEFA;
+}
+
+/******************************************/
+/************ Footer SCSS ****************/
+/******************************************/
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  line-height: 0;
+
+  span a {
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+    background-color: rgba(51,51,51,0.9);
+    width: 1440px;
+    text-align: center;
+  }
+}
+
+.footer_list {
+  height: 15px;
+}
+
+.footer_hotfix {
+  margin-bottom: 80px;
+  text-align: right;
+}
+
+.button {
+  margin-right: 20px;
+  width: 150px;
+}
+
+/******************************************/
+/************ Dashboard SCSS ****************/
+/******************************************/
+
+.dashboard {
+  .ddl {
+    padding: 0px 10px;
+    margin-top: 20px;
+    width:100%;
+    height:55px;
+    > select {
+      width:30%;
+      float:left;
+    }
+    > input {
+      width: 55%;
+      margin-left:10px;
+      display:inline-block;
+    }
+  }
+}
+
+.typeAndAvailability #checkAvailable{
+  width: 15%;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.typeAndAvailability #addSpartan{
+  float: left;
+   margin-top: -54px;
+}
+
+.typeAndAvailability #checkType{
+  width: 15%;
+  margin-left: 15%;
+  display: inline-block;
+}
+
+.typeAndAvailability input{
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+  margin-top: -54px;
+}
+
+.typeAndAvailability button{
+  display: inline-block;
+  float: right;
+  margin-top: -54px;
+  margin-right: -38%;
+}
+
+@media only screen and (min-width: 1197px) {
+   .container_dash {
+    margin: 0 140px;
+  }
+}
+
+i.fa.fa-plus {
+  width:40px;
+  height:40px;
+  border-radius:40px;
+  background-color:green;
+  font-size:25px;
+  text-align:center;
+  line-height:40px;
+  color: $white;
+  float:right;
+  &:hover {
+    cursor: pointer;
+    }
+  }
+
+.searchbtn {
+      background-color: $gray;
+      border-style: solid;
+      border-color: #BDBDBD;
+      border-width: 2px;
+      height: 39px;
+      padding: 5px;
+      text-align: center;
+      float: left;
+    }
+
+/******************************************/
+/************ Nav Bar SCSS ****************/
+/******************************************/
+
+.top-bar ul{
+  background: none;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-transform: uppercase;
+}
+
+.top-bar{
+  background-color: rgba(51,51,51,0.9);
+}
+
+.nav_logo img{
+  margin: 0 auto;
+  margin-left: 0px;
+  width: 10%;
+  height: 10%;
+  border-radius:155px;
+  border:3px solid #87CEFA;
+}
+
+button.menu-icon.dark {
+  margin-right: 2rem;
+}
+
+.admin-create-title {
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+@media only screen and (min-width : 1024px) {
+  .admin-create-form {
+    margin: 20px auto;
+    width: 65rem;
+  }
+}
+
+.tick-box {
+  float: left;
+  margin-right: 1rem;
+}
+
+/*specify browsers which support transition and duration of the effect*/
+.nav_logo img{
+  -webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+
+/*trigger transition and rotate logo when user hover*/
+.nav_logo img:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+/*hide banner once user's device screen is less than 768px width*/
+@media only screen and (max-width: 768px) {
+   .nav_logo img {
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+    border-radius:155px;
+    border:3px solid #87CEFA;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 1024px) {
+    .nav_logo img {
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+    border-radius: 155px;
+    border:3px solid #87CEFA;
+  }
+}
